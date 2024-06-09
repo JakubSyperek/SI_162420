@@ -1,0 +1,24 @@
+   a1 			a2 	a3 	dec
+o1 wysoka 		bliski  średni  tak
+o2 wysoka 		bliski  średni  tak
+o3 wysoka 		bliski  średni  tak
+o4 więcej niż średnia   daleki  silny   niepewne
+o5 więcej niż średnia   daleki  silny   nie
+o6 więcej niż średnia   daleki  lekki   nie
+o7 wysoka 		bliski  średni  tak
+o8 więcej niż średnia   daleki  lekki   nie
+o9 więcej niż średnia   daleki  lekki   tak
+
+
+
+({o1, o2, o3, o7}, {o4, o5}, {o6, o8, o9})
+
+X1 = {o1, o2, o3, o7, o9}
+X2 = {o5, o6, o8}
+X3 = {o4}
+
+-X1A = {o1, o2, o3, o7, o4, o5, o6, o8, o9}
+_X1A = {o1, o2, o3, o7{
+
+-X2A = {o4, o5, 06, o8, o9}
+_X2A = pusty zbiór
